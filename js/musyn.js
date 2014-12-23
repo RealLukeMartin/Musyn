@@ -47,12 +47,12 @@
         soundSource.stop(context.currentTime);
     }
 
-    // Events for the play/stop bottons
+
     play.addEventListener('click', startSound);
     stop.addEventListener('click', stopSound);
 
 
-    // This is the code we are interested in
+
     function audioGraph(audioData) {
         // create a sound source
         soundSource = context.createBufferSource();
@@ -66,7 +66,6 @@
         // Plug the cable from one thing to the other
         soundSource.connect(context.destination);
 
-        // Finally
         playSound(soundSource);
     }
 
