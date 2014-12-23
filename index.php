@@ -8,5 +8,7 @@
 </head>
 <body>
 	<h1>Musyn</h1>
+    <span id="play">Play</span>
+    <span id="stop">Stop</span>
 </body>
 </html>
