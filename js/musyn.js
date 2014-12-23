@@ -39,12 +39,12 @@
     // source start time
     function playSound() {
         // play the source now
-        soundSource.noteOn(context.currentTime);
+        soundSource.start(context.currentTime);
     }
 
     function stopSound() {
         // stop the source now
-        soundSource.noteOff(context.currentTime);
+        soundSource.stop(context.currentTime);
     }
 
     // Events for the play/stop bottons
